@@ -1,0 +1,13 @@
+Product,Category,Sales,Profit,Quantity,Region,Year
+Laptop,Electronics,1200,250,10,North,2023
+Phone,Electronics,800,180,15,South,2023
+Tablet,Electronics,450,90,8,West,2023
+Monitor,Electronics,650,120,5,North,2024
+Keyboard,Accessories,150,30,20,East,2024
+Mouse,Accessories,100,20,25,South,2024
+Printer,Accessories,300,50,6,West,2024
+Headphones,Accessories,220,45,12,East,2023
+,Electronics,500,80,7,North,2024
+Speaker,Audio,350,,9,South,2024
+Camera,Audio,600,110,4,West,2023
+Microphone,Audio,280,55,10,East,2023
