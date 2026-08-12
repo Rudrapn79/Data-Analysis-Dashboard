@@ -1,13 +1,151 @@
-Product,Category,Sales,Profit,Quantity,Region,Year
-Laptop,Electronics,1200,250,10,North,2023
-Phone,Electronics,800,180,15,South,2023
-Tablet,Electronics,450,90,8,West,2023
-Monitor,Electronics,650,120,5,North,2024
-Keyboard,Accessories,150,30,20,East,2024
-Mouse,Accessories,100,20,25,South,2024
-Printer,Accessories,300,50,6,West,2024
-Headphones,Accessories,220,45,12,East,2023
-,Electronics,500,80,7,North,2024
-Speaker,Audio,350,,9,South,2024
-Camera,Audio,600,110,4,West,2023
-Microphone,Audio,280,55,10,East,2023
+ID,Date,Year,Category,Product,Region,Sales,Quantity,Price,Customer,Rating
+1,2015-01-02,2016,Furniture,Chair,South,11.4,,5.7,Customer_00001,2
+2,2015-01-03,2017,,T-Shirt,East,19.2,3,6.4,,3
+3,2015-01-04,2018,Office Supplies,Paper,West,28.4,4,7.1,Customer_00003,4
+4,2015-01-05,2019,Food,Coffee,North,39.0,5,7.8,Customer_00004,5
+5,2015-01-06,2020,Electronics,Laptop,South,51.0,6,8.5,Customer_00005,1
+6,2015-01-07,2021,Furniture,Table,,64.4,7,9.2,Customer_00006,2
+7,2015-01-08,2022,Clothing,Jeans,West,79.2,8,9.9,Customer_00007,3
+8,2015-01-09,2023,Office Supplies,Pen,North,95.4,9,10.6,Customer_00008,4
+9,2015-01-10,2024,Food,Tea,South,113.0,10,11.3,Customer_00009,
+10,2015-01-11,2015,Electronics,Headphone,East,132.0,11,12.0,Customer_00010,1
+11,2015-01-12,2016,Furniture,Sofa,West,152.4,12,12.7,Customer_00011,2
+12,2015-01-13,2017,Clothing,Jacket,North,13.4,1,13.4,,3
+13,2015-01-14,2018,Office Supplies,Notebook,,28.2,2,14.1,Customer_00013,4
+14,2015-01-15,2019,Food,Snack,East,44.4,3,14.8,Customer_00014,5
+15,2015-01-16,2020,Electronics,Camera,West,62.0,4,15.5,Customer_00015,1
+16,2015-01-17,2021,Furniture,,North,81.0,5,16.2,Customer_00016,2
+17,2015-01-18,2022,Clothing,Dress,South,101.4,6,16.9,Customer_00017,3
+18,2015-01-19,2023,Office Supplies,Stapler,East,123.2,7,17.6,Customer_00018,4
+19,2015-01-20,2024,Food,Sandwich,West,146.4,8,18.3,Customer_00019,5
+20,2015-01-21,2015,Electronics,Tablet,North,171.0,9,19.0,Customer_00020,
+21,2015-01-22,2016,Furniture,Cabinet,South,197.0,10,19.7,Customer_00021,2
+22,2015-01-23,2017,Clothing,Shoes,East,224.4,11,20.4,Customer_00022,3
+23,2015-01-24,2018,Office Supplies,Envelope,West,,12,21.1,Customer_00023,4
+24,2015-01-25,2019,Food,Salad,North,21.8,1,21.8,Customer_00024,5
+25,2015-01-26,2020,Electronics,Phone,South,45.0,2,22.5,Customer_00025,1
+26,2015-01-27,2021,Furniture,Chair,East,69.6,3,23.2,Customer_00026,2
+27,2015-01-28,2022,Clothing,T-Shirt,West,,4,23.9,Customer_00027,3
+28,2015-01-29,2023,Office Supplies,Paper,North,123.0,5,24.6,Customer_00028,4
+29,2015-01-30,2024,Food,Coffee,South,31.8,6,5.3,Customer_00029,5
+30,2015-01-31,2015,Electronics,Laptop,East,,7,,Customer_00030,1
+31,2015-02-01,2016,Furniture,Table,West,53.6,8,6.7,Customer_00031,2
+32,2015-02-02,2017,Clothing,Jeans,North,66.6,9,,Customer_00032,3
+33,2015-02-03,2018,Office Supplies,Pen,South,81.0,10,8.1,Customer_00033,4
+34,2015-02-04,2019,Food,,East,96.8,11,8.8,Customer_00034,5
+35,2015-02-05,2020,Electronics,Headphone,West,114.0,,9.5,Customer_00035,1
+36,2015-02-06,2021,Furniture,Sofa,North,10.2,1,10.2,Customer_00036,2
+37,2015-02-07,2022,Clothing,Jacket,South,,2,10.9,Customer_00037,3
+38,2015-02-08,2023,Office Supplies,Notebook,East,34.8,3,11.6,Customer_00038,4
+39,2015-02-09,2024,Food,Snack,West,49.2,4,12.3,Customer_00039,5
+40,2015-02-10,2015,Electronics,Camera,North,65.0,5,13.0,Customer_00040,1
+41,2015-02-11,2016,Furniture,,South,82.2,6,13.7,Customer_00041,2
+42,2015-02-12,2017,Clothing,Dress,East,100.8,7,14.4,Customer_00042,3
+43,2015-02-13,2018,Office Supplies,Stapler,West,120.8,8,15.1,Customer_00043,4
+44,2015-02-14,2019,Food,Sandwich,North,142.2,9,15.8,Customer_00044,5
+45,2015-02-15,2020,Electronics,Tablet,South,165.0,,16.5,Customer_00045,1
+46,2015-02-16,2021,Furniture,Cabinet,East,189.2,11,17.2,Customer_00046,2
+47,2015-02-17,2022,Clothing,Shoes,West,214.8,12,17.9,Customer_00047,3
+48,2015-02-18,2023,Office Supplies,Envelope,North,18.6,1,18.6,,4
+49,2015-02-19,2024,Food,Salad,,38.6,2,19.3,Customer_00049,5
+50,2015-02-20,2015,Electronics,,East,60.0,3,,Customer_00050,1
+51,2015-02-21,2016,Furniture,Chair,West,,4,20.7,Customer_00051,2
+52,2015-02-22,2017,Clothing,T-Shirt,North,107.0,5,21.4,Customer_00052,3
+53,2015-02-23,2018,Office Supplies,Paper,South,132.6,6,22.1,Customer_00053,4
+54,2015-02-24,2019,Food,Coffee,East,159.6,7,,Customer_00054,5
+55,2015-02-25,2020,Electronics,Laptop,West,188.0,8,23.5,Customer_00055,1
+56,2015-02-26,2021,Furniture,Table,North,217.8,9,24.2,Customer_00056,2
+57,2015-02-27,2022,Clothing,Jeans,South,249.0,10,24.9,Customer_00057,3
+58,2015-02-28,2023,Office Supplies,Pen,East,61.6,11,5.6,Customer_00058,4
+59,2015-03-01,2024,Food,Tea,West,75.6,12,6.3,Customer_00059,5
+60,2015-03-02,2015,Electronics,Headphone,North,7.0,1,7.0,Customer_00060,1
+61,2015-03-03,2016,Furniture,Sofa,South,15.4,2,7.7,Customer_00061,2
+62,2015-03-04,2017,Clothing,Jacket,East,25.2,3,8.4,Customer_00062,
+63,2015-03-05,2018,Office Supplies,Notebook,West,36.4,4,9.1,Customer_00063,4
+64,2015-03-06,2019,Food,Snack,North,49.0,5,9.8,Customer_00064,5
+65,2015-03-07,2020,Electronics,,South,63.0,6,10.5,Customer_00065,1
+66,2015-03-08,2021,Furniture,Shelf,East,78.4,7,11.2,Customer_00066,2
+67,2015-03-09,2022,Clothing,Dress,West,95.2,8,11.9,Customer_00067,3
+68,2015-03-10,2023,Office Supplies,Stapler,North,113.4,9,12.6,Customer_00068,4
+69,2015-03-11,2024,Food,Sandwich,South,133.0,10,13.3,,5
+70,2015-03-12,2015,Electronics,Tablet,East,154.0,11,14.0,Customer_00070,1
+71,2015-03-13,2016,Furniture,Cabinet,West,176.4,12,14.7,Customer_00071,2
+72,2015-03-14,2017,,Shoes,North,15.4,1,15.4,Customer_00072,3
+73,2015-03-15,2018,Office Supplies,Envelope,South,32.2,2,16.1,Customer_00073,4
+74,2015-03-16,2019,Food,Salad,East,50.4,3,16.8,,5
+75,2015-03-17,2020,Electronics,Phone,West,70.0,4,17.5,Customer_00075,1
+76,2015-03-18,2021,Furniture,Chair,North,91.0,5,18.2,Customer_00076,2
+77,2015-03-19,2022,Clothing,T-Shirt,South,113.4,6,18.9,Customer_00077,3
+78,2015-03-20,2023,Office Supplies,Paper,East,137.2,7,19.6,Customer_00078,4
+79,2015-03-21,2024,Food,Coffee,West,162.4,8,20.3,Customer_00079,5
+80,2015-03-22,2015,Electronics,Laptop,North,189.0,9,21.0,Customer_00080,1
+81,2015-03-23,2016,Furniture,Table,South,217.0,10,21.7,Customer_00081,2
+82,2015-03-24,2017,Clothing,Jeans,East,246.4,11,22.4,Customer_00082,3
+83,2015-03-25,2018,Office Supplies,Pen,West,277.2,12,23.1,Customer_00083,4
+84,2015-03-26,2019,Food,Tea,North,23.8,1,23.8,Customer_00084,5
+85,2015-03-27,2020,Electronics,Headphone,South,,2,24.5,Customer_00085,1
+86,2015-03-28,2021,Furniture,Sofa,East,15.6,3,5.2,Customer_00086,2
+87,2015-03-29,2022,Clothing,Jacket,West,23.6,4,5.9,Customer_00087,3
+88,2015-03-30,2023,Office Supplies,Notebook,North,33.0,5,6.6,Customer_00088,4
+89,2015-03-31,2024,Food,Snack,South,43.8,6,7.3,Customer_00089,5
+90,2015-04-01,2015,Electronics,Camera,East,56.0,7,8.0,Customer_00090,1
+91,2015-04-02,2016,Furniture,Shelf,West,69.6,8,8.7,Customer_00091,2
+92,2015-04-03,2017,,Dress,North,84.6,9,9.4,Customer_00092,3
+93,2015-04-04,2018,Office Supplies,Stapler,South,101.0,10,10.1,Customer_00093,4
+94,2015-04-05,2019,Food,Sandwich,East,118.8,11,10.8,Customer_00094,5
+95,2015-04-06,2020,Electronics,Tablet,West,138.0,12,11.5,Customer_00095,
+96,2015-04-07,2021,Furniture,Cabinet,North,12.2,1,12.2,Customer_00096,2
+97,2015-04-08,2022,Clothing,Shoes,South,25.8,2,12.9,Customer_00097,3
+98,2015-04-09,2023,Office Supplies,Envelope,East,40.8,3,13.6,Customer_00098,4
+99,2015-04-10,2024,Food,Salad,West,57.2,4,14.3,Customer_00099,5
+100,2015-04-11,2015,Electronics,Phone,North,75.0,5,15.0,Customer_00100,1
+101,2015-04-12,2016,Furniture,Chair,South,94.2,6,15.7,Customer_00101,2
+102,2015-04-13,2017,Clothing,T-Shirt,East,114.8,7,16.4,Customer_00102,3
+103,2015-04-14,2018,Office Supplies,Paper,West,136.8,8,17.1,Customer_00103,4
+104,2015-04-15,2019,Food,Coffee,North,160.2,9,17.8,Customer_00104,5
+105,2015-04-16,2020,Electronics,Laptop,South,185.0,10,18.5,Customer_00105,1
+106,2015-04-17,2021,Furniture,,East,211.2,11,19.2,Customer_00106,2
+107,2015-04-18,2022,Clothing,Jeans,West,238.8,12,19.9,Customer_00107,3
+108,2015-04-19,2023,Office Supplies,,North,20.6,1,20.6,Customer_00108,4
+109,2015-04-20,2024,Food,Tea,South,42.6,2,21.3,Customer_00109,5
+110,2015-04-21,2015,Electronics,Headphone,East,66.0,3,22.0,Customer_00110,1
+111,2015-04-22,2016,Furniture,Sofa,West,90.8,4,22.7,Customer_00111,2
+112,2015-04-23,2017,Clothing,Jacket,North,117.0,5,23.4,Customer_00112,3
+113,2015-04-24,2018,Office Supplies,Notebook,South,144.6,6,24.1,Customer_00113,4
+114,2015-04-25,2019,Food,Snack,East,173.6,7,24.8,Customer_00114,5
+115,2015-04-26,2020,Electronics,Camera,West,44.0,8,5.5,Customer_00115,1
+116,2015-04-27,2021,Furniture,Shelf,North,55.8,9,6.2,,2
+117,2015-04-28,2022,Clothing,Dress,South,69.0,10,6.9,Customer_00117,3
+118,2015-04-29,2023,Office Supplies,Stapler,East,83.6,11,7.6,Customer_00118,4
+119,2015-04-30,2024,Food,Sandwich,West,99.6,12,8.3,Customer_00119,5
+120,2015-05-01,2015,Electronics,Tablet,,9.0,1,9.0,Customer_00120,1
+121,2015-05-02,2016,Furniture,Cabinet,South,19.4,2,9.7,Customer_00121,2
+122,2015-05-03,2017,Clothing,Shoes,East,31.2,3,10.4,Customer_00122,
+123,2015-05-04,2018,,Envelope,West,44.4,4,11.1,Customer_00123,4
+124,2015-05-05,2019,Food,,North,59.0,5,11.8,Customer_00124,5
+125,2015-05-06,2020,Electronics,Phone,South,75.0,6,12.5,Customer_00125,1
+126,2015-05-07,2021,Furniture,Chair,East,92.4,,13.2,Customer_00126,
+127,2015-05-08,2022,Clothing,T-Shirt,West,111.2,8,13.9,Customer_00127,3
+128,2015-05-09,2023,Office Supplies,Paper,North,131.4,9,14.6,,4
+129,2015-05-10,2024,Food,Coffee,South,153.0,10,15.3,,5
+130,2015-05-11,2015,Electronics,Laptop,East,176.0,11,16.0,Customer_00130,1
+131,2015-05-12,2016,Furniture,Table,West,200.4,12,16.7,Customer_00131,2
+132,2015-05-13,2017,Clothing,Jeans,North,17.4,1,17.4,Customer_00132,3
+133,2015-05-14,2018,Office Supplies,Pen,South,36.2,2,18.1,Customer_00133,
+134,2015-05-15,2019,Food,Tea,East,56.4,3,18.8,Customer_00134,5
+135,2015-05-16,2020,Electronics,Headphone,West,78.0,4,,Customer_00135,1
+136,2015-05-17,2021,Furniture,Sofa,North,101.0,5,20.2,Customer_00136,2
+137,2015-05-18,2022,Clothing,,South,125.4,6,20.9,Customer_00137,3
+138,2015-05-19,2023,Office Supplies,Notebook,East,,7,21.6,Customer_00138,
+139,2015-05-20,2024,Food,Snack,West,178.4,8,22.3,Customer_00139,5
+140,2015-05-21,2015,Electronics,Camera,North,207.0,9,23.0,Customer_00140,1
+141,2015-05-22,2016,Furniture,Shelf,South,237.0,10,23.7,Customer_00141,2
+142,2015-05-23,2017,Clothing,,East,268.4,11,24.4,Customer_00142,3
+143,2015-05-24,2018,,Stapler,West,61.2,12,5.1,Customer_00143,4
+144,2015-05-25,2019,Food,Sandwich,North,5.8,1,5.8,Customer_00144,5
+145,2015-05-26,2020,Electronics,Tablet,South,13.0,2,6.5,Customer_00145,1
+146,2015-05-27,2021,Furniture,Cabinet,East,21.6,3,7.2,Customer_00146,2
+147,2015-05-28,2022,Clothing,Shoes,West,31.6,4,,,3
+148,2015-05-29,2023,Office Supplies,Envelope,North,43.0,5,8.6,Customer_00148,4
+149,2015-05-30,2024,Food,Salad,South,55.8,6,9.3,Customer_00149,5
+150,2015-05-31,2015,Electronics,,East,70.0,7,10.0,Customer_00150,1
