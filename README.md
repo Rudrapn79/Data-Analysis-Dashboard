@@ -296,7 +296,7 @@ Generated charts can be downloaded as PNG files, and cleaned datasets can be dow
 
 Screenshots can be added to showcase the application.
 
-Recommended structure:
+Structure:
 
 ```text
 screenshots/
@@ -307,10 +307,13 @@ screenshots/
 └── visualize.png
 ```
 
-Example README usage:
+File Location:
 
 ```markdown
-![Dashboard](screenshots/dashboard.png)
+![Upload](screenshots\Upload.png)
+![Analyze_&_clean](screenshots\Analyze_&_clean.png)
+![Visualize](screenshots\Visualize.png)
+![Dashboard](screenshots\Dashboard.png)
 ```
 
 ---
