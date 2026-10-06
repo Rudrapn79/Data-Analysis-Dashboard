@@ -209,7 +209,7 @@ pip install -r requirements.txt
 Start the Streamlit application:
 
 ```bash
-streamlit run main.py
+streamlit run app.py
 ```
 
 Streamlit will display a local URL, usually:

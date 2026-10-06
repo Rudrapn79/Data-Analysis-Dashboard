@@ -1,151 +1,301 @@
-ID,Date,Year,Category,Product,Region,Sales,Quantity,Price,Customer,Rating
-1,2015-01-02,2016,Furniture,Chair,South,11.4,,5.7,Customer_00001,2
-2,2015-01-03,2017,,T-Shirt,East,19.2,3,6.4,,3
-3,2015-01-04,2018,Office Supplies,Paper,West,28.4,4,7.1,Customer_00003,4
-4,2015-01-05,2019,Food,Coffee,North,39.0,5,7.8,Customer_00004,5
-5,2015-01-06,2020,Electronics,Laptop,South,51.0,6,8.5,Customer_00005,1
-6,2015-01-07,2021,Furniture,Table,,64.4,7,9.2,Customer_00006,2
-7,2015-01-08,2022,Clothing,Jeans,West,79.2,8,9.9,Customer_00007,3
-8,2015-01-09,2023,Office Supplies,Pen,North,95.4,9,10.6,Customer_00008,4
-9,2015-01-10,2024,Food,Tea,South,113.0,10,11.3,Customer_00009,
-10,2015-01-11,2015,Electronics,Headphone,East,132.0,11,12.0,Customer_00010,1
-11,2015-01-12,2016,Furniture,Sofa,West,152.4,12,12.7,Customer_00011,2
-12,2015-01-13,2017,Clothing,Jacket,North,13.4,1,13.4,,3
-13,2015-01-14,2018,Office Supplies,Notebook,,28.2,2,14.1,Customer_00013,4
-14,2015-01-15,2019,Food,Snack,East,44.4,3,14.8,Customer_00014,5
-15,2015-01-16,2020,Electronics,Camera,West,62.0,4,15.5,Customer_00015,1
-16,2015-01-17,2021,Furniture,,North,81.0,5,16.2,Customer_00016,2
-17,2015-01-18,2022,Clothing,Dress,South,101.4,6,16.9,Customer_00017,3
-18,2015-01-19,2023,Office Supplies,Stapler,East,123.2,7,17.6,Customer_00018,4
-19,2015-01-20,2024,Food,Sandwich,West,146.4,8,18.3,Customer_00019,5
-20,2015-01-21,2015,Electronics,Tablet,North,171.0,9,19.0,Customer_00020,
-21,2015-01-22,2016,Furniture,Cabinet,South,197.0,10,19.7,Customer_00021,2
-22,2015-01-23,2017,Clothing,Shoes,East,224.4,11,20.4,Customer_00022,3
-23,2015-01-24,2018,Office Supplies,Envelope,West,,12,21.1,Customer_00023,4
-24,2015-01-25,2019,Food,Salad,North,21.8,1,21.8,Customer_00024,5
-25,2015-01-26,2020,Electronics,Phone,South,45.0,2,22.5,Customer_00025,1
-26,2015-01-27,2021,Furniture,Chair,East,69.6,3,23.2,Customer_00026,2
-27,2015-01-28,2022,Clothing,T-Shirt,West,,4,23.9,Customer_00027,3
-28,2015-01-29,2023,Office Supplies,Paper,North,123.0,5,24.6,Customer_00028,4
-29,2015-01-30,2024,Food,Coffee,South,31.8,6,5.3,Customer_00029,5
-30,2015-01-31,2015,Electronics,Laptop,East,,7,,Customer_00030,1
-31,2015-02-01,2016,Furniture,Table,West,53.6,8,6.7,Customer_00031,2
-32,2015-02-02,2017,Clothing,Jeans,North,66.6,9,,Customer_00032,3
-33,2015-02-03,2018,Office Supplies,Pen,South,81.0,10,8.1,Customer_00033,4
-34,2015-02-04,2019,Food,,East,96.8,11,8.8,Customer_00034,5
-35,2015-02-05,2020,Electronics,Headphone,West,114.0,,9.5,Customer_00035,1
-36,2015-02-06,2021,Furniture,Sofa,North,10.2,1,10.2,Customer_00036,2
-37,2015-02-07,2022,Clothing,Jacket,South,,2,10.9,Customer_00037,3
-38,2015-02-08,2023,Office Supplies,Notebook,East,34.8,3,11.6,Customer_00038,4
-39,2015-02-09,2024,Food,Snack,West,49.2,4,12.3,Customer_00039,5
-40,2015-02-10,2015,Electronics,Camera,North,65.0,5,13.0,Customer_00040,1
-41,2015-02-11,2016,Furniture,,South,82.2,6,13.7,Customer_00041,2
-42,2015-02-12,2017,Clothing,Dress,East,100.8,7,14.4,Customer_00042,3
-43,2015-02-13,2018,Office Supplies,Stapler,West,120.8,8,15.1,Customer_00043,4
-44,2015-02-14,2019,Food,Sandwich,North,142.2,9,15.8,Customer_00044,5
-45,2015-02-15,2020,Electronics,Tablet,South,165.0,,16.5,Customer_00045,1
-46,2015-02-16,2021,Furniture,Cabinet,East,189.2,11,17.2,Customer_00046,2
-47,2015-02-17,2022,Clothing,Shoes,West,214.8,12,17.9,Customer_00047,3
-48,2015-02-18,2023,Office Supplies,Envelope,North,18.6,1,18.6,,4
-49,2015-02-19,2024,Food,Salad,,38.6,2,19.3,Customer_00049,5
-50,2015-02-20,2015,Electronics,,East,60.0,3,,Customer_00050,1
-51,2015-02-21,2016,Furniture,Chair,West,,4,20.7,Customer_00051,2
-52,2015-02-22,2017,Clothing,T-Shirt,North,107.0,5,21.4,Customer_00052,3
-53,2015-02-23,2018,Office Supplies,Paper,South,132.6,6,22.1,Customer_00053,4
-54,2015-02-24,2019,Food,Coffee,East,159.6,7,,Customer_00054,5
-55,2015-02-25,2020,Electronics,Laptop,West,188.0,8,23.5,Customer_00055,1
-56,2015-02-26,2021,Furniture,Table,North,217.8,9,24.2,Customer_00056,2
-57,2015-02-27,2022,Clothing,Jeans,South,249.0,10,24.9,Customer_00057,3
-58,2015-02-28,2023,Office Supplies,Pen,East,61.6,11,5.6,Customer_00058,4
-59,2015-03-01,2024,Food,Tea,West,75.6,12,6.3,Customer_00059,5
-60,2015-03-02,2015,Electronics,Headphone,North,7.0,1,7.0,Customer_00060,1
-61,2015-03-03,2016,Furniture,Sofa,South,15.4,2,7.7,Customer_00061,2
-62,2015-03-04,2017,Clothing,Jacket,East,25.2,3,8.4,Customer_00062,
-63,2015-03-05,2018,Office Supplies,Notebook,West,36.4,4,9.1,Customer_00063,4
-64,2015-03-06,2019,Food,Snack,North,49.0,5,9.8,Customer_00064,5
-65,2015-03-07,2020,Electronics,,South,63.0,6,10.5,Customer_00065,1
-66,2015-03-08,2021,Furniture,Shelf,East,78.4,7,11.2,Customer_00066,2
-67,2015-03-09,2022,Clothing,Dress,West,95.2,8,11.9,Customer_00067,3
-68,2015-03-10,2023,Office Supplies,Stapler,North,113.4,9,12.6,Customer_00068,4
-69,2015-03-11,2024,Food,Sandwich,South,133.0,10,13.3,,5
-70,2015-03-12,2015,Electronics,Tablet,East,154.0,11,14.0,Customer_00070,1
-71,2015-03-13,2016,Furniture,Cabinet,West,176.4,12,14.7,Customer_00071,2
-72,2015-03-14,2017,,Shoes,North,15.4,1,15.4,Customer_00072,3
-73,2015-03-15,2018,Office Supplies,Envelope,South,32.2,2,16.1,Customer_00073,4
-74,2015-03-16,2019,Food,Salad,East,50.4,3,16.8,,5
-75,2015-03-17,2020,Electronics,Phone,West,70.0,4,17.5,Customer_00075,1
-76,2015-03-18,2021,Furniture,Chair,North,91.0,5,18.2,Customer_00076,2
-77,2015-03-19,2022,Clothing,T-Shirt,South,113.4,6,18.9,Customer_00077,3
-78,2015-03-20,2023,Office Supplies,Paper,East,137.2,7,19.6,Customer_00078,4
-79,2015-03-21,2024,Food,Coffee,West,162.4,8,20.3,Customer_00079,5
-80,2015-03-22,2015,Electronics,Laptop,North,189.0,9,21.0,Customer_00080,1
-81,2015-03-23,2016,Furniture,Table,South,217.0,10,21.7,Customer_00081,2
-82,2015-03-24,2017,Clothing,Jeans,East,246.4,11,22.4,Customer_00082,3
-83,2015-03-25,2018,Office Supplies,Pen,West,277.2,12,23.1,Customer_00083,4
-84,2015-03-26,2019,Food,Tea,North,23.8,1,23.8,Customer_00084,5
-85,2015-03-27,2020,Electronics,Headphone,South,,2,24.5,Customer_00085,1
-86,2015-03-28,2021,Furniture,Sofa,East,15.6,3,5.2,Customer_00086,2
-87,2015-03-29,2022,Clothing,Jacket,West,23.6,4,5.9,Customer_00087,3
-88,2015-03-30,2023,Office Supplies,Notebook,North,33.0,5,6.6,Customer_00088,4
-89,2015-03-31,2024,Food,Snack,South,43.8,6,7.3,Customer_00089,5
-90,2015-04-01,2015,Electronics,Camera,East,56.0,7,8.0,Customer_00090,1
-91,2015-04-02,2016,Furniture,Shelf,West,69.6,8,8.7,Customer_00091,2
-92,2015-04-03,2017,,Dress,North,84.6,9,9.4,Customer_00092,3
-93,2015-04-04,2018,Office Supplies,Stapler,South,101.0,10,10.1,Customer_00093,4
-94,2015-04-05,2019,Food,Sandwich,East,118.8,11,10.8,Customer_00094,5
-95,2015-04-06,2020,Electronics,Tablet,West,138.0,12,11.5,Customer_00095,
-96,2015-04-07,2021,Furniture,Cabinet,North,12.2,1,12.2,Customer_00096,2
-97,2015-04-08,2022,Clothing,Shoes,South,25.8,2,12.9,Customer_00097,3
-98,2015-04-09,2023,Office Supplies,Envelope,East,40.8,3,13.6,Customer_00098,4
-99,2015-04-10,2024,Food,Salad,West,57.2,4,14.3,Customer_00099,5
-100,2015-04-11,2015,Electronics,Phone,North,75.0,5,15.0,Customer_00100,1
-101,2015-04-12,2016,Furniture,Chair,South,94.2,6,15.7,Customer_00101,2
-102,2015-04-13,2017,Clothing,T-Shirt,East,114.8,7,16.4,Customer_00102,3
-103,2015-04-14,2018,Office Supplies,Paper,West,136.8,8,17.1,Customer_00103,4
-104,2015-04-15,2019,Food,Coffee,North,160.2,9,17.8,Customer_00104,5
-105,2015-04-16,2020,Electronics,Laptop,South,185.0,10,18.5,Customer_00105,1
-106,2015-04-17,2021,Furniture,,East,211.2,11,19.2,Customer_00106,2
-107,2015-04-18,2022,Clothing,Jeans,West,238.8,12,19.9,Customer_00107,3
-108,2015-04-19,2023,Office Supplies,,North,20.6,1,20.6,Customer_00108,4
-109,2015-04-20,2024,Food,Tea,South,42.6,2,21.3,Customer_00109,5
-110,2015-04-21,2015,Electronics,Headphone,East,66.0,3,22.0,Customer_00110,1
-111,2015-04-22,2016,Furniture,Sofa,West,90.8,4,22.7,Customer_00111,2
-112,2015-04-23,2017,Clothing,Jacket,North,117.0,5,23.4,Customer_00112,3
-113,2015-04-24,2018,Office Supplies,Notebook,South,144.6,6,24.1,Customer_00113,4
-114,2015-04-25,2019,Food,Snack,East,173.6,7,24.8,Customer_00114,5
-115,2015-04-26,2020,Electronics,Camera,West,44.0,8,5.5,Customer_00115,1
-116,2015-04-27,2021,Furniture,Shelf,North,55.8,9,6.2,,2
-117,2015-04-28,2022,Clothing,Dress,South,69.0,10,6.9,Customer_00117,3
-118,2015-04-29,2023,Office Supplies,Stapler,East,83.6,11,7.6,Customer_00118,4
-119,2015-04-30,2024,Food,Sandwich,West,99.6,12,8.3,Customer_00119,5
-120,2015-05-01,2015,Electronics,Tablet,,9.0,1,9.0,Customer_00120,1
-121,2015-05-02,2016,Furniture,Cabinet,South,19.4,2,9.7,Customer_00121,2
-122,2015-05-03,2017,Clothing,Shoes,East,31.2,3,10.4,Customer_00122,
-123,2015-05-04,2018,,Envelope,West,44.4,4,11.1,Customer_00123,4
-124,2015-05-05,2019,Food,,North,59.0,5,11.8,Customer_00124,5
-125,2015-05-06,2020,Electronics,Phone,South,75.0,6,12.5,Customer_00125,1
-126,2015-05-07,2021,Furniture,Chair,East,92.4,,13.2,Customer_00126,
-127,2015-05-08,2022,Clothing,T-Shirt,West,111.2,8,13.9,Customer_00127,3
-128,2015-05-09,2023,Office Supplies,Paper,North,131.4,9,14.6,,4
-129,2015-05-10,2024,Food,Coffee,South,153.0,10,15.3,,5
-130,2015-05-11,2015,Electronics,Laptop,East,176.0,11,16.0,Customer_00130,1
-131,2015-05-12,2016,Furniture,Table,West,200.4,12,16.7,Customer_00131,2
-132,2015-05-13,2017,Clothing,Jeans,North,17.4,1,17.4,Customer_00132,3
-133,2015-05-14,2018,Office Supplies,Pen,South,36.2,2,18.1,Customer_00133,
-134,2015-05-15,2019,Food,Tea,East,56.4,3,18.8,Customer_00134,5
-135,2015-05-16,2020,Electronics,Headphone,West,78.0,4,,Customer_00135,1
-136,2015-05-17,2021,Furniture,Sofa,North,101.0,5,20.2,Customer_00136,2
-137,2015-05-18,2022,Clothing,,South,125.4,6,20.9,Customer_00137,3
-138,2015-05-19,2023,Office Supplies,Notebook,East,,7,21.6,Customer_00138,
-139,2015-05-20,2024,Food,Snack,West,178.4,8,22.3,Customer_00139,5
-140,2015-05-21,2015,Electronics,Camera,North,207.0,9,23.0,Customer_00140,1
-141,2015-05-22,2016,Furniture,Shelf,South,237.0,10,23.7,Customer_00141,2
-142,2015-05-23,2017,Clothing,,East,268.4,11,24.4,Customer_00142,3
-143,2015-05-24,2018,,Stapler,West,61.2,12,5.1,Customer_00143,4
-144,2015-05-25,2019,Food,Sandwich,North,5.8,1,5.8,Customer_00144,5
-145,2015-05-26,2020,Electronics,Tablet,South,13.0,2,6.5,Customer_00145,1
-146,2015-05-27,2021,Furniture,Cabinet,East,21.6,3,7.2,Customer_00146,2
-147,2015-05-28,2022,Clothing,Shoes,West,31.6,4,,,3
-148,2015-05-29,2023,Office Supplies,Envelope,North,43.0,5,8.6,Customer_00148,4
-149,2015-05-30,2024,Food,Salad,South,55.8,6,9.3,Customer_00149,5
-150,2015-05-31,2015,Electronics,,East,70.0,7,10.0,Customer_00150,1
+ID,Date,Year,Category,Product,Region,Sales,Profit,Quantity,Price,Customer,Rating
+1,2023-01-08,2023,Electronics,External SSD,Midwest,105.47,18.00,1,105.47,CUST-1032,4.9
+2,2023-01-13,2023,Clothing,Wool Sweater,Midwest,251.97,116.57,3,83.99,CUST-1049,4.7
+3,2023-01-20,2023,Office Supplies,Spiral Notebook,South,4.96,2.07,1,4.96,CUST-1034,3.5
+4,2023-01-24,2023,Furniture,Writing Desk,South,346.65,84.13,1,346.65,CUST-1031,4.2
+5,2023-02-03,2023,Electronics,USB-C Hub,Midwest,44.03,11.43,1,44.03,CUST-1009,4.2
+6,2023-02-04,2023,Food,Olive Oil,South,46.98,11.68,3,15.66,CUST-1001,4.2
+7,2023-02-04,2023,Food,Pasta Variety Pack,South,11.04,3.16,1,11.04,CUST-1001,4.2
+8,2023-02-17,2023,Clothing,Cotton T-Shirt,Midwest,96.36,46.02,4,24.09,CUST-1016,4.4
+9,2023-02-21,2023,Office Supplies,Copy Paper,South,9.07,3.23,1,9.07,CUST-1001,4.2
+10,2023-02-24,2023,Office Supplies,Ballpoint Pens,Midwest,6.12,2.41,1,6.12,CUST-1029,3.7
+11,2023-02-25,2023,Office Supplies,Copy Paper,Northeast,9.14,3.01,1,9.14,CUST-1039,4.9
+12,2023-03-14,2023,Clothing,Cotton T-Shirt,Northeast,49.60,23.64,2,24.80,CUST-1042,5
+13,2023-03-18,2023,Electronics,USB-C Hub,West,44.64,8.44,1,44.64,CUST-1076,4.9
+14,2023-03-20,2023,Clothing,Denim Jeans,South,138.98,57.60,2,69.49,CUST-1020,4.3
+15,2023-03-23,2023,Electronics,Bluetooth Headphones,Northeast,264.09,50.96,3,88.03,CUST-1013,4.6
+16,2023-03-29,2023,Furniture,Bookcase,Northeast,612.21,206.97,3,204.07,CUST-1013,4.6
+17,2023-03-30,2023,Furniture,Bookcase,South,379.64,107.13,2,189.82,CUST-1002,NaN
+18,2023-04-03,2023,Furniture,Dining Table,Midwest,1181.98,273.70,2,590.99,CUST-1008,3.7
+19,2023-04-04,2023,Office Supplies,Ink Cartridge,Northeast,83.20,27.43,2,41.60,CUST-1036,3.6
+20,2023-04-06,2023,Office Supplies,Copy Paper,South,8.95,3.40,1,8.95,CUST-1002,4.8
+21,2023-04-10,2023,Electronics,Wireless Mouse,West,31.47,6.61,1,31.47,CUST-1050,4
+22,2023-04-12,2023,Furniture,Bookcase,Northeast,174.76,59.43,1,174.76,CUST-1042,5
+23,2023-04-20,2023,Clothing,Cotton T-Shirt,Northeast,119.00,51.47,5,23.80,CUST-1060,3.9
+24,2023-04-24,2023,Clothing,Denim Jeans,South,68.35,3.79,1,68.35,CUST-1003,4.4
+25,2023-04-29,2023,Furniture,Dining Table,Northeast,515.14,93.00,1,515.14,CUST-1083,4.1
+26,2023-04-30,2023,Furniture,Dining Table,West,581.07,118.52,1,581.07,CUST-1044,3.6
+27,2023-04-30,2023,Office Supplies,Desk Organizer,West,34.06,12.49,2,17.03,CUST-1038,4.2
+28,2023-05-02,2023,Clothing,Running Shoes,Northeast,189.78,79.04,2,94.89,CUST-1013,4.6
+29,2023-05-03,2023,Furniture,Floor Lamp,West,176.28,55.45,2,88.14,CUST-1065,4.4
+30,2023-05-04,2023,Office Supplies,Copy Paper,West,16.02,6.25,2,8.01,CUST-1046,4.8
+31,2023-05-04,2023,Office Supplies,Ballpoint Pens,Northeast,11.92,4.65,2,5.96,CUST-1052,4.6
+32,2023-05-12,2023,Clothing,Cotton T-Shirt,Midwest,77.52,-1.53,3,25.84,CUST-1029,3.7
+33,2023-05-17,2023,Clothing,Running Shoes,West,99.37,42.87,1,99.37,NaN,4.8
+34,2023-05-19,2023,Clothing,Running Shoes,West,89.89,34.05,1,89.89,NaN,3.8
+35,2023-05-19,2023,Clothing,Wool Sweater,Midwest,72.75,30.76,1,72.75,CUST-1077,4.5
+36,2023-05-20,2023,Food,Pasta Variety Pack,West,11.70,3.76,1,11.70,CUST-1038,4.2
+37,2023-05-22,2023,Office Supplies,Copy Paper,West,17.86,6.07,2,8.93,CUST-1061,4
+38,2023-06-03,2023,Electronics,Wireless Mouse,South,93.30,23.87,3,31.10,CUST-1001,4.2
+39,2023-06-05,2023,Food,Olive Oil,Northeast,34.70,10.05,2,17.35,CUST-1048,3.8
+40,2023-06-08,2023,Furniture,Bookcase,Northeast,188.36,59.34,1,188.36,CUST-1014,4.9
+41,2023-06-12,2023,Electronics,Wireless Mouse,Midwest,29.62,5.79,1,29.62,CUST-1068,3.5
+42,2023-06-14,2023,Electronics,HD Monitor,West,247.62,51.84,1,247.62,CUST-1043,4.4
+43,2023-06-16,2023,Furniture,Bookcase,Northeast,570.09,154.45,3,190.03,CUST-1055,3.5
+44,2023-06-17,2023,Food,Ground Coffee,South,12.90,3.83,1,12.90,CUST-1007,4
+45,2023-06-18,2023,Office Supplies,Ballpoint Pens,West,5.69,2.55,1,5.69,CUST-1061,4
+46,2023-06-19,2023,Clothing,Rain Jacket,West,115.53,44.06,1,115.53,CUST-1085,3.6
+47,2023-06-21,2023,Clothing,Denim Jeans,West,67.41,27.65,1,67.41,CUST-1046,4.8
+48,2023-06-23,2023,Food,Olive Oil,South,17.42,4.99,1,17.42,CUST-1002,4.8
+49,2023-07-02,2023,Clothing,Wool Sweater,Midwest,83.43,40.61,1,83.43,CUST-1010,4.3
+50,2023-07-07,2023,Clothing,Rain Jacket,Northeast,127.72,51.94,1,127.72,CUST-1055,3.5
+51,2023-07-08,2023,Clothing,Cotton T-Shirt,Northeast,25.78,13.26,1,25.78,CUST-1058,4.7
+52,2023-07-08,2023,Furniture,Dining Table,West,1075.28,204.11,2,537.64,CUST-1027,3.5
+53,2023-07-23,2023,Food,Olive Oil,South,35.28,10.01,2,17.64,CUST-1006,4.4
+54,2023-07-30,2023,Electronics,HD Monitor,Northeast,256.77,41.51,1,256.77,CUST-1055,3.5
+55,2023-07-31,2023,Clothing,Denim Jeans,Midwest,137.22,60.98,2,68.61,CUST-1016,4.4
+56,2023-07-31,2023,Food,Granola Bars,Northeast,13.94,3.64,2,6.97,CUST-1013,4.6
+57,2023-08-07,2023,Clothing,Rain Jacket,Northeast,115.14,49.77,1,115.14,CUST-1017,3.8
+58,2023-08-07,2023,Food,Granola Bars,South,13.02,4.11,2,6.51,CUST-1003,4.4
+59,2023-08-12,2023,Furniture,Bookcase,West,177.26,63.61,1,177.26,CUST-1061,NaN
+60,2023-08-14,2023,Furniture,Office Chair,Northeast,302.68,92.36,2,151.34,CUST-1053,4.1
+61,2023-08-15,2023,Furniture,Bookcase,South,371.42,108.44,2,185.71,CUST-1041,NaN
+62,2023-08-17,2023,Office Supplies,Ballpoint Pens,Northeast,12.32,4.84,2,6.16,CUST-1013,4.6
+63,2023-08-17,2023,Food,Pasta Variety Pack,West,37.65,11.27,3,12.55,CUST-1070,4
+64,2023-08-21,2023,Electronics,External SSD,Midwest,206.68,35.10,2,103.34,CUST-1084,4.4
+65,2023-08-21,2023,Food,Granola Bars,Midwest,7.32,2.26,1,7.32,CUST-1029,3.7
+66,2023-08-24,2023,Clothing,Denim Jeans,Midwest,181.71,85.58,3,60.57,CUST-1077,4.5
+67,2023-08-25,2023,Furniture,Bookcase,Midwest,348.90,125.05,2,174.45,CUST-1032,4.9
+68,2023-08-26,2023,Food,Pasta Variety Pack,Midwest,12.35,3.61,1,12.35,CUST-1022,4.9
+69,2023-08-27,2023,Food,Pasta Variety Pack,South,12.58,4.12,1,12.58,CUST-1041,4.3
+70,2023-08-28,2023,Furniture,Office Chair,South,308.28,92.63,2,154.14,CUST-1041,4.3
+71,2023-09-05,2023,Furniture,Dining Table,Midwest,520.29,107.62,1,520.29,CUST-1010,4.3
+72,2023-09-06,2023,Furniture,Floor Lamp,South,84.20,31.46,1,84.20,CUST-1001,4.2
+73,2023-09-07,2023,Furniture,Floor Lamp,Midwest,90.40,31.71,1,90.40,CUST-1022,4.9
+74,2023-09-13,2023,Clothing,Running Shoes,Midwest,88.68,30.49,1,88.68,CUST-1047,NaN
+75,2023-09-13,2023,Office Supplies,Copy Paper,Northeast,18.18,6.45,2,9.09,CUST-1037,3.6
+76,2023-09-15,2023,Furniture,Writing Desk,Midwest,661.30,167.09,2,330.65,CUST-1084,4.4
+77,2023-09-19,2023,Clothing,Cotton T-Shirt,West,52.04,27.06,2,26.02,CUST-1033,4.6
+78,2023-09-21,2023,Furniture,Floor Lamp,South,162.28,59.59,2,81.14,CUST-1035,NaN
+79,2023-09-24,2023,Clothing,Running Shoes,Midwest,89.91,32.67,1,89.91,CUST-1021,3.6
+80,2023-09-24,2023,Office Supplies,Ballpoint Pens,South,5.99,2.58,1,5.99,CUST-1004,4.6
+81,2023-09-27,2023,Clothing,Denim Jeans,Northeast,132.28,61.28,2,66.14,CUST-1036,3.6
+82,2023-09-30,2023,Furniture,Office Chair,NaN,138.30,41.68,1,138.30,CUST-1039,NaN
+83,2023-10-07,2023,Clothing,Wool Sweater,Midwest,157.08,72.14,2,78.54,CUST-1047,4.8
+84,2023-10-13,2023,Office Supplies,Spiral Notebook,Midwest,10.00,4.16,2,5.00,CUST-1084,4.4
+85,2023-10-26,2023,Food,Ground Coffee,West,26.64,8.42,2,13.32,CUST-1038,4.2
+86,2023-11-02,2023,Electronics,External SSD,Midwest,216.26,49.63,2,108.13,CUST-1074,3.9
+87,2023-11-03,2023,Clothing,Rain Jacket,Northeast,246.24,99.21,2,123.12,CUST-1051,3.9
+88,2023-11-17,2023,Clothing,Running Shoes,West,306.15,129.52,3,102.05,CUST-1030,4.3
+89,2023-11-18,2023,Clothing,Cotton T-Shirt,South,49.32,25.65,2,24.66,CUST-1005,4.4
+90,2023-11-21,2023,Food,Green Tea,Midwest,7.94,2.77,1,7.94,CUST-1084,4.4
+91,2023-11-30,2023,Furniture,Bookcase,Midwest,201.05,53.60,1,201.05,CUST-1045,3.7
+92,2023-12-01,2023,Office Supplies,Ink Cartridge,West,83.22,21.44,2,41.61,CUST-1018,4.3
+93,2023-12-03,2023,Food,Ground Coffee,Midwest,14.21,5.07,1,14.21,CUST-1077,4.5
+94,2023-12-03,2023,Office Supplies,Desk Organizer,West,35.32,12.75,2,17.66,CUST-1018,4.3
+95,2023-12-03,2023,Food,Granola Bars,South,13.08,3.88,2,6.54,CUST-1035,3.4
+96,2023-12-04,2023,Office Supplies,Spiral Notebook,South,14.61,6.08,3,4.87,CUST-1031,4.2
+97,2023-12-09,2023,Clothing,Denim Jeans,Northeast,61.18,24.71,1,61.18,CUST-1013,4.6
+98,2023-12-13,2023,Electronics,Bluetooth Headphones,West,82.65,19.30,1,82.65,CUST-1044,3.6
+99,2023-12-19,2023,Furniture,Writing Desk,Northeast,982.29,278.82,3,327.43,CUST-1015,4
+100,2023-12-20,2023,Electronics,Wireless Mouse,West,29.54,6.77,1,29.54,CUST-1012,3.5
+101,2023-12-20,2023,Office Supplies,Desk Organizer,Midwest,17.71,6.44,1,17.71,CUST-1073,3.8
+102,2023-12-23,2023,Clothing,Denim Jeans,Northeast,359.76,147.94,6,59.96,CUST-1036,3.6
+103,2023-12-25,2023,Electronics,HD Monitor,Midwest,231.06,26.33,1,231.06,CUST-1016,4.4
+104,2023-12-31,2023,Office Supplies,Spiral Notebook,West,9.52,4.13,2,4.76,CUST-1012,3.5
+105,2024-01-03,2024,Furniture,Floor Lamp,Midwest,79.88,24.65,1,79.88,CUST-1029,3.7
+106,2024-01-07,2024,Furniture,Dining Table,Midwest,583.06,-18.06,1,583.06,CUST-1010,4.3
+107,2024-01-10,2024,Office Supplies,Spiral Notebook,West,4.46,0.25,1,4.46,CUST-1033,4.6
+108,2024-01-15,2024,Office Supplies,Ink Cartridge,Midwest,75.90,24.92,2,37.95,CUST-1068,NaN
+109,2024-01-17,2024,Clothing,Rain Jacket,Northeast,239.00,98.60,2,119.50,CUST-1039,4.9
+110,2024-01-18,2024,Clothing,Cotton T-Shirt,West,48.38,21.78,2,24.19,CUST-1050,4
+111,2024-01-28,2024,Office Supplies,Spiral Notebook,Northeast,9.46,3.83,2,4.73,CUST-1055,3.5
+112,2024-02-07,2024,Clothing,Cotton T-Shirt,Midwest,50.94,25.66,2,25.47,CUST-1056,4.4
+113,2024-02-13,2024,Furniture,Writing Desk,Northeast,693.44,146.91,2,346.72,CUST-1063,3.7
+114,2024-02-18,2024,Furniture,Dining Table,Midwest,556.74,119.36,1,556.74,CUST-1016,4.4
+115,2024-02-24,2024,Food,Granola Bars,South,22.20,6.92,3,7.40,CUST-1006,4.4
+116,2024-03-03,2024,Electronics,HD Monitor,South,263.33,43.64,1,263.33,CUST-1031,4.2
+117,2024-03-05,2024,Food,Green Tea,Northeast,7.12,2.54,1,7.12,CUST-1063,3.7
+118,2024-03-07,2024,Office Supplies,Copy Paper,West,8.88,3.00,1,8.88,CUST-1072,4.5
+119,2024-03-09,2024,Furniture,Office Chair,Northeast,728.65,231.10,5,145.73,CUST-1058,4.7
+120,2024-03-12,2024,Furniture,Floor Lamp,South,81.29,30.54,1,81.29,CUST-1006,4.4
+121,2024-03-17,2024,Office Supplies,Ink Cartridge,West,122.25,32.92,3,40.75,CUST-1061,4
+122,2024-03-19,2024,Office Supplies,Spiral Notebook,Northeast,9.62,4.42,2,4.81,CUST-1048,3.8
+123,2024-03-23,2024,Clothing,Cotton T-Shirt,Midwest,24.19,11.39,1,24.19,CUST-1047,4.8
+124,2024-03-27,2024,Furniture,Dining Table,Northeast,564.21,110.48,1,564.21,CUST-1060,3.9
+125,2024-03-31,2024,Clothing,Cotton T-Shirt,Northeast,24.69,13.06,1,24.69,CUST-1054,4.4
+126,2024-04-01,2024,Office Supplies,Copy Paper,Midwest,8.24,3.17,1,8.24,CUST-1064,3.8
+127,2024-04-03,2024,Office Supplies,Spiral Notebook,West,4.77,1.98,1,4.77,CUST-1040,4.3
+128,2024-04-10,2024,Furniture,Bookcase,South,545.25,152.05,3,181.75,CUST-1006,4.4
+129,2024-04-10,2024,Electronics,Wireless Mouse,Midwest,63.42,15.90,2,31.71,CUST-1010,4.3
+130,2024-04-20,2024,Electronics,HD Monitor,West,259.88,52.72,1,259.88,NaN,4
+131,2024-04-25,2024,Furniture,Office Chair,South,148.19,39.53,1,148.19,CUST-1041,4.3
+132,2024-04-29,2024,Office Supplies,Copy Paper,South,17.10,6.75,2,8.55,CUST-1034,3.5
+133,2024-05-01,2024,Food,Ground Coffee,Northeast,30.08,8.81,2,15.04,CUST-1058,4.7
+134,2024-05-09,2024,Electronics,HD Monitor,Midwest,258.49,36.02,1,258.49,CUST-1045,3.7
+135,2024-05-14,2024,Electronics,HD Monitor,Northeast,493.90,69.15,2,246.95,CUST-1058,4.7
+136,2024-05-17,2024,Furniture,Writing Desk,Northeast,619.12,129.12,2,309.56,CUST-1063,3.7
+137,2024-05-20,2024,Clothing,Running Shoes,Midwest,89.43,37.29,1,89.43,CUST-1047,4.8
+138,2024-06-02,2024,Food,Ground Coffee,Midwest,14.53,5.10,1,14.53,CUST-1010,4.3
+139,2024-06-05,2024,Furniture,Dining Table,West,577.61,114.42,1,577.61,CUST-1030,4.3
+140,2024-06-09,2024,Furniture,Dining Table,Northeast,557.56,109.96,1,557.56,CUST-1013,4.6
+141,2024-06-10,2024,Furniture,Office Chair,Midwest,155.81,49.93,1,155.81,CUST-1026,3.6
+142,2024-06-14,2024,Office Supplies,Desk Organizer,South,39.30,15.77,2,19.65,CUST-1007,4
+143,2024-06-15,2024,Office Supplies,Copy Paper,South,8.12,3.04,1,8.12,CUST-1006,4.4
+144,2024-06-21,2024,Office Supplies,Spiral Notebook,West,9.28,3.78,2,4.64,CUST-1081,4.7
+145,2024-06-22,2024,Furniture,Office Chair,Midwest,157.57,36.61,1,157.57,CUST-1071,3.7
+146,2024-06-23,2024,Clothing,Denim Jeans,West,134.38,54.23,2,67.19,CUST-1065,4.4
+147,2024-06-26,2024,Food,Green Tea,South,7.34,2.37,1,7.34,CUST-1035,3.4
+148,2024-07-10,2024,Food,Pasta Variety Pack,Midwest,12.63,4.17,1,12.63,CUST-1068,3.5
+149,2024-07-11,2024,Office Supplies,Desk Organizer,South,38.38,1.84,2,19.19,CUST-1020,4.3
+150,2024-07-14,2024,Food,Ground Coffee,Northeast,14.54,3.98,1,14.54,CUST-1048,3.8
+151,2024-07-17,2024,Office Supplies,Ink Cartridge,Northeast,78.58,25.47,2,39.29,CUST-1042,5
+152,2024-07-22,2024,Clothing,Wool Sweater,Northeast,153.48,72.10,2,76.74,CUST-1019,4.2
+153,2024-07-22,2024,Food,Green Tea,South,7.44,2.79,1,7.44,CUST-1034,NaN
+154,2024-07-24,2024,Furniture,Bookcase,West,588.33,196.19,3,196.11,CUST-1070,4
+155,2024-07-30,2024,Clothing,Rain Jacket,South,373.98,165.47,3,124.66,CUST-1004,4.6
+156,2024-08-01,2024,Food,Pasta Variety Pack,Northeast,11.31,4.00,1,11.31,CUST-1037,3.6
+157,2024-08-07,2024,Clothing,Running Shoes,Northeast,547.98,240.02,6,91.33,CUST-1039,4.9
+158,2024-08-09,2024,Furniture,Floor Lamp,Midwest,79.15,24.54,1,79.15,CUST-1047,4.8
+159,2024-08-15,2024,Food,Ground Coffee,Midwest,13.05,3.72,1,13.05,CUST-1064,3.8
+160,2024-08-19,2024,Clothing,Wool Sweater,South,79.42,1.60,1,79.42,CUST-1001,4.2
+161,2024-08-26,2024,Clothing,Cotton T-Shirt,West,80.04,38.15,3,26.68,CUST-1043,4.4
+162,2024-08-30,2024,Clothing,Rain Jacket,West,119.99,44.90,1,119.99,CUST-1038,4.2
+163,2024-08-31,2024,Office Supplies,Copy Paper,West,17.32,5.76,2,8.66,CUST-1025,3.8
+164,2024-09-04,2024,Furniture,Bookcase,Midwest,200.70,64.91,1,200.70,CUST-1077,4.5
+165,2024-09-04,2024,Electronics,Wireless Mouse,South,27.71,6.29,1,27.71,CUST-1002,4.8
+166,2024-09-04,2024,Clothing,Denim Jeans,Northeast,67.67,26.35,1,67.67,CUST-1039,4.9
+167,2024-09-15,2024,Office Supplies,Spiral Notebook,South,4.87,1.82,1,4.87,CUST-1031,4.2
+168,2024-09-19,2024,Office Supplies,Spiral Notebook,Midwest,4.79,1.95,1,4.79,CUST-1010,4.3
+169,2024-09-19,2024,Furniture,Dining Table,South,1013.82,198.83,2,506.91,CUST-1001,4.2
+170,2024-09-20,2024,Office Supplies,Copy Paper,Midwest,8.48,3.33,1,8.48,CUST-1028,4.5
+171,2024-09-24,2024,Food,Ground Coffee,West,13.69,3.91,1,13.69,CUST-1061,4
+172,2024-09-24,2024,Furniture,Floor Lamp,South,182.28,64.86,2,91.14,CUST-1005,4.4
+173,2024-10-04,2024,Furniture,Writing Desk,Midwest,709.48,188.01,2,354.74,CUST-1082,4.2
+174,2024-10-07,2024,Office Supplies,Desk Organizer,Midwest,34.68,14.86,2,17.34,CUST-1026,3.6
+175,2024-10-11,2024,Clothing,Wool Sweater,Midwest,480.66,202.84,6,80.11,CUST-1064,3.8
+176,2024-10-13,2024,Office Supplies,Ink Cartridge,Midwest,40.12,10.82,1,40.12,CUST-1056,4.4
+177,2024-10-20,2024,Clothing,Denim Jeans,West,131.12,51.11,2,65.56,CUST-1070,4
+178,2024-10-21,2024,Office Supplies,Spiral Notebook,Midwest,4.90,2.00,1,4.90,CUST-1026,3.6
+179,2024-10-24,2024,Food,Granola Bars,Midwest,6.59,2.24,1,6.59,CUST-1049,4.7
+180,2024-10-28,2024,Electronics,Bluetooth Headphones,Midwest,282.21,62.47,3,94.07,CUST-1056,4.4
+181,2024-10-29,2024,Furniture,Bookcase,South,197.67,52.57,1,197.67,CUST-1007,4
+182,2024-10-29,2024,Electronics,Bluetooth Headphones,West,526.56,108.00,6,87.76,CUST-1079,4.8
+183,2024-10-30,2024,Office Supplies,Ink Cartridge,South,41.91,1.10,1,41.91,CUST-1062,3.8
+184,2024-10-31,2024,Office Supplies,Ink Cartridge,Midwest,77.58,22.33,2,38.79,CUST-1084,4.4
+185,2024-11-04,2024,Electronics,Wireless Mouse,West,31.07,5.72,1,31.07,CUST-1018,4.3
+186,2024-11-05,2024,Furniture,Bookcase,Midwest,188.46,54.79,1,188.46,CUST-1077,4.5
+187,2024-11-06,2024,Clothing,Cotton T-Shirt,Northeast,47.28,24.77,2,23.64,CUST-1063,3.7
+188,2024-11-22,2024,Clothing,Running Shoes,Midwest,184.14,73.90,2,92.07,CUST-1016,4.4
+189,2024-11-27,2024,Clothing,Running Shoes,West,187.20,76.53,2,93.60,CUST-1038,NaN
+190,2024-12-06,2024,Furniture,Writing Desk,Northeast,337.51,82.89,1,337.51,CUST-1023,4.2
+191,2024-12-08,2024,Office Supplies,Copy Paper,Northeast,25.86,10.46,3,8.62,CUST-1055,3.5
+192,2024-12-10,2024,Clothing,Denim Jeans,Midwest,136.52,1.13,2,68.26,CUST-1068,3.5
+193,2024-12-11,2024,Office Supplies,Desk Organizer,South,54.09,19.84,3,18.03,CUST-1001,4.2
+194,2024-12-29,2024,Furniture,Dining Table,Northeast,1106.24,257.59,2,553.12,CUST-1055,3.5
+195,2024-12-31,2024,Office Supplies,Ink Cartridge,Midwest,42.69,11.13,1,42.69,CUST-1077,4.5
+196,2024-12-31,2024,Furniture,Office Chair,South,421.50,6.29,3,140.50,NaN,4.3
+197,2025-01-02,2025,Furniture,Bookcase,Midwest,799.88,209.84,4,199.97,CUST-1064,3.8
+198,2025-01-02,2025,Office Supplies,Ink Cartridge,South,189.10,55.48,5,37.82,CUST-1062,3.8
+199,2025-01-04,2025,Office Supplies,Spiral Notebook,Midwest,10.08,4.30,2,5.04,CUST-1026,3.6
+200,2025-01-04,2025,Furniture,Office Chair,South,319.56,89.50,2,159.78,CUST-1003,4.4
+201,2025-01-08,2025,Office Supplies,Spiral Notebook,Northeast,13.89,5.49,3,4.63,CUST-1014,4.9
+202,2025-01-08,2025,Food,Ground Coffee,West,14.71,4.81,1,14.71,CUST-1030,4.3
+203,2025-01-11,2025,Furniture,Bookcase,South,194.16,66.17,1,194.16,CUST-1007,4
+204,2025-01-15,2025,Food,Olive Oil,West,15.88,4.83,1,15.88,CUST-1043,4.4
+205,2025-01-17,2025,Office Supplies,Ink Cartridge,South,78.66,21.85,2,39.33,CUST-1031,4.2
+206,2025-01-23,2025,Furniture,Writing Desk,Northeast,908.52,45.54,3,302.84,CUST-1054,4.4
+207,2025-01-29,2025,Food,Olive Oil,South,16.82,3.85,1,16.82,CUST-1062,3.8
+208,2025-02-02,2025,Furniture,Floor Lamp,South,81.46,26.46,1,81.46,CUST-1062,NaN
+209,2025-02-03,2025,Office Supplies,Ballpoint Pens,Midwest,6.41,3.00,1,6.41,CUST-1082,4.2
+210,2025-02-07,2025,Electronics,External SSD,West,117.56,22.66,1,117.56,CUST-1044,3.6
+211,2025-02-07,2025,Office Supplies,Ink Cartridge,Midwest,38.28,11.51,1,38.28,CUST-1056,4.4
+212,2025-02-13,2025,Furniture,Dining Table,Midwest,508.09,131.55,1,508.09,CUST-1008,3.7
+213,2025-02-14,2025,Electronics,Wireless Mouse,West,60.64,16.06,2,30.32,CUST-1065,4.4
+214,2025-02-21,2025,Food,Pasta Variety Pack,Northeast,12.66,4.46,1,12.66,CUST-1015,4
+215,2025-02-25,2025,Office Supplies,Desk Organizer,Northeast,18.47,6.99,1,18.47,CUST-1019,4.2
+216,2025-02-27,2025,Furniture,Dining Table,Midwest,545.60,121.60,1,545.60,CUST-1026,3.6
+217,2025-02-28,2025,Furniture,Office Chair,West,301.32,77.62,2,150.66,CUST-1076,4.9
+218,2025-03-01,2025,Office Supplies,Copy Paper,South,8.18,3.22,1,8.18,CUST-1005,4.4
+219,2025-03-03,2025,Office Supplies,Copy Paper,Northeast,8.86,3.62,1,8.86,CUST-1037,3.6
+220,2025-03-04,2025,Electronics,USB-C Hub,West,44.30,8.42,1,44.30,CUST-1033,4.6
+221,2025-03-04,2025,Furniture,Bookcase,Northeast,197.43,61.86,1,197.43,CUST-1036,3.6
+222,2025-03-07,2025,Food,Green Tea,South,7.63,2.85,1,7.63,CUST-1078,4.5
+223,2025-03-13,2025,Food,Olive Oil,West,32.66,9.37,2,16.33,CUST-1025,3.8
+224,2025-03-13,2025,Food,Green Tea,South,14.26,5.66,2,7.13,CUST-1006,4.4
+225,2025-03-17,2025,Electronics,External SSD,Northeast,231.28,44.26,2,115.64,CUST-1083,4.1
+226,2025-03-23,2025,Electronics,HD Monitor,South,241.61,47.13,1,241.61,CUST-1041,4.3
+227,2025-04-17,2025,Office Supplies,Spiral Notebook,Midwest,4.79,1.98,1,4.79,CUST-1074,3.9
+228,2025-04-19,2025,Food,Pasta Variety Pack,Midwest,11.21,3.24,1,11.21,CUST-1073,3.8
+229,2025-04-22,2025,Office Supplies,Ballpoint Pens,Northeast,5.79,2.38,1,5.79,CUST-1060,3.9
+230,2025-04-24,2025,Office Supplies,Copy Paper,Midwest,8.78,3.43,1,8.78,CUST-1071,3.7
+231,2025-04-30,2025,Clothing,Wool Sweater,Northeast,82.87,40.17,1,82.87,CUST-1060,3.9
+232,2025-04-30,2025,Furniture,Writing Desk,Midwest,659.12,188.81,2,329.56,CUST-1016,4.4
+233,2025-05-01,2025,Furniture,Bookcase,Midwest,361.42,109.88,2,180.71,CUST-1022,4.9
+234,2025-05-04,2025,Furniture,Writing Desk,Midwest,354.79,96.21,1,354.79,NaN,4.2
+235,2025-05-05,2025,Furniture,Bookcase,South,591.60,167.01,3,197.20,CUST-1031,4.2
+236,2025-05-10,2025,Office Supplies,Desk Organizer,Northeast,18.36,7.18,1,18.36,CUST-1019,4.2
+237,2025-05-12,2025,Office Supplies,Ballpoint Pens,South,12.68,5.63,2,6.34,CUST-1004,4.6
+238,2025-05-20,2025,Clothing,Running Shoes,Northeast,195.98,78.46,2,97.99,CUST-1023,4.2
+239,2025-05-22,2025,Office Supplies,Ballpoint Pens,Northeast,6.26,2.71,1,6.26,CUST-1053,4.1
+240,2025-05-24,2025,Electronics,HD Monitor,Northeast,237.93,30.54,1,237.93,CUST-1036,3.6
+241,2025-05-26,2025,Food,Ground Coffee,Northeast,14.51,4.21,1,14.51,CUST-1015,4
+242,2025-06-03,2025,Clothing,Running Shoes,Midwest,192.72,73.59,2,96.36,CUST-1022,4.9
+243,2025-06-07,2025,Office Supplies,Desk Organizer,West,35.86,13.09,2,17.93,CUST-1070,4
+244,2025-06-22,2025,Furniture,Writing Desk,West,354.90,96.04,1,354.90,CUST-1025,3.8
+245,2025-06-26,2025,Clothing,Wool Sweater,Northeast,145.42,70.87,2,72.71,CUST-1039,4.9
+246,2025-06-28,2025,Office Supplies,Copy Paper,Midwest,8.28,2.69,1,8.28,CUST-1068,3.5
+247,2025-06-28,2025,Office Supplies,Desk Organizer,Northeast,34.80,15.25,2,17.40,CUST-1014,4.9
+248,2025-06-30,2025,Food,Ground Coffee,Northeast,13.97,-0.55,1,13.97,CUST-1013,4.6
+249,2025-06-30,2025,Furniture,Office Chair,South,157.96,40.06,1,157.96,CUST-1041,4.3
+250,2025-07-05,2025,Electronics,HD Monitor,Northeast,234.13,32.70,1,234.13,CUST-1083,4.1
+251,2025-07-13,2025,Clothing,Running Shoes,Midwest,97.15,37.74,1,97.15,CUST-1011,4.6
+252,2025-07-30,2025,Food,Ground Coffee,Northeast,12.96,0.76,1,12.96,CUST-1015,4
+253,2025-08-04,2025,Electronics,HD Monitor,Midwest,264.64,31.75,1,264.64,CUST-1029,3.7
+254,2025-08-07,2025,Clothing,Cotton T-Shirt,Northeast,24.19,12.45,1,24.19,CUST-1036,NaN
+255,2025-08-09,2025,Food,Granola Bars,South,20.85,5.68,3,6.95,CUST-1034,3.5
+256,2025-08-13,2025,Clothing,Wool Sweater,Northeast,74.03,34.56,1,74.03,CUST-1042,5
+257,2025-08-18,2025,Furniture,Writing Desk,Midwest,314.46,60.06,1,314.46,CUST-1049,4.7
+258,2025-08-20,2025,Office Supplies,Ballpoint Pens,Midwest,6.11,2.72,1,6.11,CUST-1073,3.8
+259,2025-08-23,2025,Office Supplies,Copy Paper,West,25.77,8.28,3,8.59,CUST-1061,4
+260,2025-08-23,2025,Food,Olive Oil,Northeast,30.40,-0.86,2,15.20,CUST-1014,4.9
+261,2025-08-24,2025,Clothing,Denim Jeans,Midwest,270.28,107.67,4,67.57,CUST-1064,3.8
+262,2025-09-04,2025,Clothing,Running Shoes,Midwest,178.30,70.57,2,89.15,CUST-1026,3.6
+263,2025-09-09,2025,Furniture,Bookcase,Midwest,390.68,121.58,2,195.34,CUST-1032,4.9
+264,2025-09-11,2025,Food,Ground Coffee,Northeast,12.88,4.43,1,12.88,CUST-1039,4.9
+265,2025-09-16,2025,Office Supplies,Copy Paper,West,16.74,6.54,2,8.37,CUST-1044,3.6
+266,2025-09-20,2025,Furniture,Bookcase,Northeast,200.66,70.18,1,200.66,CUST-1048,3.8
+267,2025-09-20,2025,Office Supplies,Desk Organizer,South,56.94,24.40,3,18.98,CUST-1069,NaN
+268,2025-09-21,2025,Office Supplies,Desk Organizer,South,87.25,32.19,5,17.45,CUST-1041,4.3
+269,2025-09-22,2025,Furniture,Floor Lamp,West,179.12,53.77,2,89.56,CUST-1043,4.4
+270,2025-09-29,2025,Clothing,Denim Jeans,Midwest,67.99,28.11,1,67.99,CUST-1082,4.2
+271,2025-10-01,2025,Food,Olive Oil,Northeast,15.23,4.54,1,15.23,CUST-1042,NaN
+272,2025-10-05,2025,Food,Green Tea,Northeast,14.42,4.34,2,7.21,CUST-1053,4.1
+273,2025-10-06,2025,Clothing,Cotton T-Shirt,Northeast,47.62,24.57,2,23.81,CUST-1014,4.9
+274,2025-10-10,2025,Clothing,Cotton T-Shirt,South,25.70,11.20,1,25.70,CUST-1003,4.4
+275,2025-10-11,2025,Food,Granola Bars,South,14.64,3.79,2,7.32,CUST-1007,4
+276,2025-10-15,2025,Food,Pasta Variety Pack,West,12.34,4.22,1,12.34,CUST-1030,4.3
+277,2025-10-17,2025,Office Supplies,Copy Paper,South,33.08,1.74,4,8.27,CUST-1002,4.8
+278,2025-10-18,2025,Clothing,Running Shoes,Midwest,355.24,127.27,4,88.81,CUST-1045,3.7
+279,2025-10-20,2025,Office Supplies,Ink Cartridge,West,111.48,32.82,3,37.16,CUST-1025,3.8
+280,2025-10-21,2025,Clothing,Cotton T-Shirt,Midwest,24.44,11.65,1,24.44,CUST-1016,4.4
+281,2025-10-24,2025,Food,Olive Oil,Northeast,17.01,0.50,1,17.01,CUST-1051,3.9
+282,2025-10-28,2025,Furniture,Dining Table,Northeast,1163.26,246.94,2,581.63,CUST-1036,3.6
+283,2025-11-03,2025,Food,Granola Bars,Midwest,7.02,1.76,1,7.02,CUST-1010,4.3
+284,2025-11-06,2025,Furniture,Writing Desk,West,322.71,61.50,1,322.71,CUST-1067,4.4
+285,2025-11-13,2025,Furniture,Floor Lamp,Midwest,332.56,112.83,4,83.14,CUST-1026,3.6
+286,2025-11-17,2025,Clothing,Denim Jeans,West,60.23,25.25,1,60.23,CUST-1061,4
+287,2025-11-26,2025,Clothing,Wool Sweater,Midwest,453.48,228.95,6,75.58,CUST-1008,3.7
+288,2025-11-29,2025,Furniture,Bookcase,South,203.76,63.87,1,203.76,CUST-1041,4.3
+289,2025-12-01,2025,Clothing,Cotton T-Shirt,West,48.04,25.06,2,24.02,CUST-1066,3.8
+290,2025-12-04,2025,Clothing,Running Shoes,South,96.59,39.63,1,96.59,CUST-1001,4.2
+291,2025-12-10,2025,Office Supplies,Ballpoint Pens,South,5.51,2.18,1,5.51,NaN,4.5
+292,2025-12-11,2025,Furniture,Floor Lamp,South,89.90,31.36,1,89.90,CUST-1031,4.2
+293,2025-12-12,2025,Office Supplies,Ink Cartridge,Midwest,39.85,12.08,1,39.85,CUST-1029,3.7
+294,2025-12-16,2025,Furniture,Office Chair,Northeast,414.90,121.96,3,138.30,CUST-1055,3.5
+295,2025-12-16,2025,Furniture,Floor Lamp,West,182.44,54.37,2,91.22,CUST-1043,4.4
+296,2025-12-16,2025,Electronics,Bluetooth Headphones,Northeast,275.28,65.24,3,91.76,CUST-1058,4.7
+297,2025-12-28,2025,Clothing,Cotton T-Shirt,Midwest,76.29,33.20,3,25.43,CUST-1075,4
+298,2025-12-29,2025,Electronics,External SSD,Northeast,102.37,14.27,1,102.37,CUST-1051,3.9
+299,2025-12-29,2025,Clothing,Wool Sweater,Northeast,158.04,68.78,2,79.02,CUST-1054,4.4
+300,2025-12-30,2025,Furniture,Floor Lamp,Midwest,85.42,29.67,1,85.42,CUST-1021,3.6
